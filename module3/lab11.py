@@ -12,3 +12,17 @@ step 4: use the del instruction to remove Stu Sutcliffe and Pete Best from the l
 step 5: use the insert() method to add Ringo Starr to the beginning of the list.
 """
 
+beatles = []
+
+beatles.append("John Lennon")
+beatles.append("Paul McCartney")
+beatles.append("George Harrison")
+
+beatles.append("Stu Sutcliffe")
+beatles.append("Pete Best")
+
+del beatles[-2:]
+
+beatles.insert(0, "Ringo Starr")
+
+print(beatles)
